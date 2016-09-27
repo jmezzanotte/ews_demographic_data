@@ -33,9 +33,9 @@ def tab(data, column) :
 if __name__ == "__main__":
 
 
-    root = os.path.abspath("c:\users\jmezzanotte\desktop")
-    src_data = "student demographic 91216 air fix.csv"
-    out_data = "student demographic 91216 reports fix.csv"
+    root = os.path.abspath("<directory>")
+    src_data = "<source data file>.csv"
+    out_data = "<out data file>.csv"
 
     field_names = [
         'First Name',
@@ -102,23 +102,4 @@ if __name__ == "__main__":
             out.seek(0)
        
 
-        
 
-        
-
-     
-
-        
-               
-          
-
-      
-      
-
-        
-    
-
-
-
-   
-    
